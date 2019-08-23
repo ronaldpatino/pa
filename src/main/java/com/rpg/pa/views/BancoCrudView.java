@@ -1,13 +1,16 @@
 package com.rpg.pa.views;
 
+import com.rpg.pa.MainLayout;
 import com.rpg.pa.backEnd.BancoDataProvider;
-import com.rpg.pa.service.BancoService;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.icon.VaadinIcon;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;
+import com.vaadin.flow.router.Route;
+import com.vaadin.flow.router.RouteAlias;
 
+@Route(value = "bancos", layout = MainLayout.class)
 public class BancoCrudView extends HorizontalLayout {
 
     public static final String VIEW_NAME = "Inventory";
@@ -38,6 +41,10 @@ public class BancoCrudView extends HorizontalLayout {
         bancoFilter.setPlaceholder("Buscar");
         bancoNuevoButton = new Button("Nuevo");
         bancoNuevoButton.setIcon(VaadinIcon.PLUS_CIRCLE.create());
+        bancoNuevoButton.addClickListener(e ->
+                bancoNuevoButton.getUI().ifPresent(ui ->
+                        ui.navigate("bancos/form"))
+        );
 
         HorizontalLayout topLayout = new HorizontalLayout();
         topLayout.setWidth("100%");

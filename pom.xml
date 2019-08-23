@@ -107,9 +107,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.vaadin</groupId>
-            <artifactId>vaadin-crud-flow</artifactId>
-            <version>${vaadin.crud.version}</version>
+            <groupId>org.vaadin.crudui</groupId>
+            <artifactId>crudui</artifactId>
+            <version>3.9.0</version>
         </dependency>
     </dependencies>
 

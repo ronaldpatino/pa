@@ -59,6 +59,10 @@
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-select-flow:2.0.1" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-dialog-flow:2.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-form-layout-flow:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:vaadin-grid-flow:4.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:vaadin__vaadin-mobile-drag-drop:1.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars.npm:mobile-drag-drop:2.3.0-rc.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.0" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-icons-flow:2.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-iron-list-flow:2.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-list-box-flow:2.0.0" level="project" />
@@ -68,6 +72,7 @@
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-radio-button-flow:2.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-split-layout-flow:2.0.1" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-tabs-flow:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:vaadin-text-field-flow:2.0.2" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-upload-flow:2.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-notification-flow:2.0.0" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-app-layout-flow:2.0.1" level="project" />
@@ -80,6 +85,7 @@
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.9" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-confirm-dialog-flow:2.0.1" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-cookie-consent-flow:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:vaadin-crud-flow:2.0.1" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-grid-pro-flow:2.0.1" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-rich-text-editor-flow:2.0.0" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-simple:1.7.25" level="project" />
@@ -118,6 +124,12 @@
     <orderEntry type="library" name="Maven: net.bytebuddy:byte-buddy:1.9.13" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.vaadin:flow-html-components-testbench:2.0.7" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.vaadin:vaadin-accordion-testbench:2.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.webjars.bowergithub.polymer:polymer:2.7.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.webjars.bowergithub.webcomponents:webcomponentsjs:1.2.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.webjars.bowergithub.webcomponents:shadycss:1.8.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.webjars.bowergithub.vaadin:vaadin-element-mixin:2.1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.webjars.bowergithub.vaadin:vaadin-usage-statistics:2.0.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.webjars.bowergithub.vaadin:vaadin-development-mode-detector:2.0.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.vaadin:vaadin-app-layout-testbench:2.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.vaadin:vaadin-board-testbench:3.0.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.vaadin:vaadin-button-testbench:2.0.1" level="project" />
@@ -151,39 +163,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: com.vaadin:vaadin-text-field-testbench:2.0.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.vaadin:vaadin-time-picker-testbench:2.0.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.vaadin:vaadin-upload-testbench:2.0.0" level="project" />
-    <orderEntry type="library" name="Maven: com.vaadin:vaadin-crud-flow:2.0.1" level="project" />
-    <orderEntry type="library" name="Maven: com.vaadin:vaadin-text-field-flow:2.0.2" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.vaadin:vaadin-text-field:2.4.8" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.vaadin:vaadin-control-state-mixin:2.1.3" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.polymerelements:iron-icon:2.1.0" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.polymerelements:iron-meta:2.1.1" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.polymerelements:iron-iconset-svg:2.2.1" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.polymerelements:iron-flex-layout:2.0.3" level="project" />
-    <orderEntry type="library" name="Maven: com.vaadin:vaadin-grid-flow:4.0.4" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.npm:vaadin__vaadin-mobile-drag-drop:1.0.0" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.npm:mobile-drag-drop:2.3.0-rc.1" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.vaadin:vaadin-grid:5.4.6" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.polymerelements:iron-scroll-target-behavior:2.1.1" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.polymerelements:iron-resizable-behavior:2.1.1" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.polymerelements:iron-a11y-keys-behavior:2.1.1" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.vaadin:vaadin-checkbox:2.2.10" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.polymerelements:iron-a11y-announcer:2.1.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.0" level="project" />
-    <orderEntry type="library" name="Maven: com.vaadin.webjar:vaadin-crud:1.0.5" level="project" />
-    <orderEntry type="library" name="Maven: com.vaadin.webjar:vaadin-confirm-dialog:1.1.4" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.vaadin:license-checker:2.1.0" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.vaadin:vaadin-material-styles:1.2.3" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.vaadin:vaadin-dialog:2.2.1" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.vaadin:vaadin-overlay:3.2.13" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.vaadin:vaadin-lumo-styles:1.5.0" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.vaadin:vaadin-themable-mixin:1.4.4" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.vaadin:vaadin-button:2.2.1" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.vaadin:vaadin-form-layout:2.1.4" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.polymer:polymer:2.7.0" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.webcomponents:webcomponentsjs:1.2.6" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.webcomponents:shadycss:1.8.0" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.vaadin:vaadin-element-mixin:2.1.3" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.vaadin:vaadin-usage-statistics:2.0.4" level="project" />
-    <orderEntry type="library" name="Maven: org.webjars.bowergithub.vaadin:vaadin-development-mode-detector:2.0.4" level="project" />
+    <orderEntry type="library" name="Maven: org.vaadin.crudui:crudui:3.9.0" level="project" />
   </component>
 </module>
