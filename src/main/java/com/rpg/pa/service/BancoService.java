@@ -8,33 +8,23 @@ import com.vaadin.flow.data.provider.Query;
 
 import java.util.Collection;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.stream.Stream;
 
-public class BancoService extends AbstractBackEndDataProvider<Banco, CrudFilter> {
+public class BancoService {
 
     private static final Logger LOGGER = Logger.getLogger(BancoService.class.getName());
-    private Collection<Banco> bancos = new LinkedList<>();
+    private List<Banco> bancos = new LinkedList<>();
 
     public BancoService() {
+        for(int i=0; i<10; i++){
+            bancos.add(new Banco("banco numero " + i));
+        }
     }
 
-    public Stream<Banco> getStream(){
-        return bancos.stream();
-    }
-
-    @Override
-    protected Stream<Banco> fetchFromBackEnd(Query<Banco, CrudFilter> query) {
-        return bancos.stream();
-    }
-
-    @Override
-    protected int sizeInBackEnd(Query<Banco, CrudFilter> query) {
-        return bancos.size();
-    }
-
-    public Banco save(Banco entry){
+    public Banco save(Banco entry) {
 
         if (bancos.contains(entry)){
             bancos.remove(entry);
@@ -48,12 +38,12 @@ public class BancoService extends AbstractBackEndDataProvider<Banco, CrudFilter>
         return entry;
     }
 
-    public void delete(Banco entry){
+    public void delete(Banco entry) {
         LOGGER.log(Level.INFO,"Borramos Banco  " + entry);
         bancos.remove(entry);
     }
 
-    public Collection<Banco> findAll(){
+    public List<Banco> findAll() {
         LOGGER.log(Level.INFO,"Bancos: " + bancos.size() );
         return bancos;
     }
