@@ -1,0 +1,12 @@
+com/rpg/pa/Menu.class
+com/rpg/pa/service/BancoService.class
+com/rpg/pa/backEnd/DataService.class
+com/rpg/pa/backEnd/BancoDataProvider.class
+com/rpg/pa/MainLayout.class
+com/rpg/pa/views/DefaultView.class
+com/rpg/pa/MainView.class
+com/rpg/pa/views/BancoCrudView.class
+com/rpg/pa/views/BancoGrid.class
+com/rpg/pa/pojo/Banco.class
+com/rpg/pa/backEnd/MockDataService.class
+com/rpg/pa/views/BancoForm.class
